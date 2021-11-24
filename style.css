@@ -1,0 +1,39 @@
+body {
+    margin: 20%;
+    padding: 0;
+    border: 4px solid slategrey;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#display {
+    padding: 1ex 2ex;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100px;
+    background-color: #80808080;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.button {
+    background-color: rgba(112, 128, 144, 0.644);
+    font-size: 24px;
+    height: 6ex;
+    width: 100%;
+}
+
+.function-button {
+    background-color: rgb(184, 135, 11);
+}
+
+#zero {
+    grid-column: 1 / span 2;
+}
